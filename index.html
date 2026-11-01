@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jhon's Portfolio</title>
+    <meta
+      name="description"
+      content="Jhon Lito Padit — Registered Mechanical Engineer specializing in product development, NPI, and manufacturing. 3 years of experience across solar and motion-control industries."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jhon Lito Padit — Mechanical Engineer" />
+    <meta
+      property="og:description"
+      content="Registered Mechanical Engineer | Product Development · NPI · Manufacturing · Cost Reduction"
+    />
+    <meta property="og:image" content="./og-preview.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./assets/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <a href="#profile" class="skip-link">Skip to content</a>
+
+    <!-- ================= DESKTOP NAV ================= -->
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assets/JLMP.png" alt="Jhon Lito Padit Logo" />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" data-spy="about">About</a></li>
+          <li><a href="#experience" data-spy="experience">Skills</a></li>
+          <li><a href="#projects" data-spy="projects">Projects</a></li>
+          <li><a href="#contact" data-spy="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ================= HAMBURGER NAV ================= -->
+    <nav id="hamburger-nav">
+      <div class="logo">Jhon Lito Padit</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= PROFILE ================= -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/picture.JPG"
+          alt="Jhon Lito Padit profile picture"
+          class="profile-pic"
+          loading="eager"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jhon Lito Padit</h1>
+        <p class="section__text__p2">Mechanical Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume_Padit.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/jhon-lito-padit-86b42826a'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Jjanan-UI'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers reveal">
+            <div class="details-container">
+              <img src="./assets/Personal.png" alt="Personal icon" class="icon" />
+              <h3>License</h3>
+              <p>Registered Mechanical Engineer</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>3 years <br />Development Engineer II</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>
+                Bachelor of Science in Mechanical Engineering <br />
+                Technological Institute of the Philippines
+              </p>
+            </div>
+          </div>
+
+          <div class="text-container reveal">
+            <p>
+              Mechanical Engineer with 3 years of combined experience in
+              engineering, product development, and manufacturing. Proven leader
+              of cross-functional product engineering and NPI projects from
+              development through production, with expertise in engineering
+              change management, product specifications, and technical
+              documentation. Strong collaborator with contract manufacturers,
+              suppliers, and internal teams, focused on resolving manufacturing
+              issues and driving cost reduction. Fast learner and data-driven
+              problem solver with a practical, analytical approach to delivering
+              manufacturable, cost-effective solutions.
+            </p>
+          </div>
+
+          <div class="experience-timeline reveal">
+            <h3 class="timeline-heading">Where I've Worked</h3>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2023 — 2026</span>
+                <h4 class="timeline-role">Development Engineer II</h4>
+                <p class="timeline-company">Merlin Solar Technologies Inc. · Philippines</p>
+                <ul class="timeline-achievements">
+                  <li>Lead NPI projects from concept through production handoff</li>
+                  <li>Manage engineering changes, product specifications, by authoring and executing Engineering Change Notice</li>
+                  <li>Developed jigs and prototypes for new material testing</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2016 - 2017</span>
+                <h4 class="timeline-role">Intern Machinist</h4>
+                <p class="timeline-company">Moog Controls Corporation · Philippines</p>
+                <ul class="timeline-achievements">
+                  <li>Operated and set up CNC machines (lathe, milling) while performing precision measurements using micrometers and gauges.</li>
+                  <li>Gained practical exposure to mechanical tolerances, blueprint interpretation, and machining workflows, informing accurate CAD drafting practices.</li>
+                  <li>Validated tight-tolerance parts using high-precision inspection equipment, ensuring compliance with engineering specifications.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="previous-company-container reveal">
+            <p class="previous-company-text">Previous working experience at</p>
+            <div class="company-logos">
+              <a href="https://www.merlinsolar.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/Merlin_Solar_Logo.png" alt="Merlin Solar Technologies Inc. Logo" class="company-logo" loading="lazy" />
+              </a>
+              <a href="https://www.moog.com/" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/Moog_logo.png" alt="Moog Logo" class="company-logo" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#experience" class="arrow" aria-label="Go to Skills section">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ================= EXPERIENCE / SKILLS ================= -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers skills-containers reveal">
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Product Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>New Product Introduction (NPI)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Product and Material Testing</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Prototype and Jig Development</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Engineering Change Management (ECN)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Technical Writing (SOPs)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Supplier Coordination</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Quality &amp; Process</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Root Cause Analysis (RCA)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Failure Mode and Effects Analysis (FMEA)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Design of Experiments (DOE)</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Process Validation &amp; Optimization</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Cost Reduction</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Project Management</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Mechanical Processing</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>CNC Lathe Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>CNC Milling Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Laser Cutting Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Conventional Lathe Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Conventional Milling Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Welding Machine</p>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Skill icon" class="icon" loading="lazy" />
+                <p>Die Casting</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications-strip reveal">
+        <p class="certifications-label">Certifications &amp; Licenses</p>
+        <div class="certifications-list">
+          <span class="cert-badge">PRC Licensed Mechanical Engineer</span>
+          <span class="cert-badge">Six Sigma White Belt</span>
+          <span class="cert-badge">BOSH Safety Officer 2</span>
+          <span class="cert-badge">Data Analyst Skillpath</span>
+        </div>
+      </div>
+
+      <div class="tools-banner reveal">
+        <p class="tools-banner-text">Tools I Use</p>
+        <div class="tools-logos">
+
+          <div class="tool-item">
+            <img src="./assets/Solidworks.jpg" alt="SolidWorks" class="tool-logo" loading="lazy" />
+            <p class="tool-name">SolidWorks</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/AutoCAD.png" alt="AutoCAD" class="tool-logo" loading="lazy" />
+            <p class="tool-name">AutoCAD</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/Excel.jpg" alt="Excel" class="tool-logo" loading="lazy" />
+            <p class="tool-name">Excel</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/PowerBI.png" alt="Power BI" class="tool-logo" loading="lazy" />
+            <p class="tool-name">Power BI</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/PostgreSQL.png" alt="SQL" class="tool-logo" loading="lazy" />
+            <p class="tool-name">SQL</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/jmp-pro.jpg" alt="JMP" class="tool-logo" loading="lazy" />
+            <p class="tool-name">JMP</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/Python.png" alt="Python" class="tool-logo" loading="lazy" />
+            <p class="tool-name">Python</p>
+          </div>
+
+          <div class="tool-item">
+            <img src="./assets/GitHub.png" alt="GitHub" class="tool-logo" loading="lazy" />
+            <p class="tool-name">GitHub</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="process-strip reveal">
+        <p class="process-label">How I Work</p>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="process-number">01</div>
+            <h3 class="process-title">Concept</h3>
+            <p class="process-desc">Clarify requirements, constraints, and engineering alignment for projects.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">02</div>
+            <h3 class="process-title">Design</h3>
+            <p class="process-desc">Manage engineering product specifications, and supplier collaboration.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">03</div>
+            <h3 class="process-title">Testing</h3>
+            <p class="process-desc">Manage product testing, validation, and qualification using DOE and statistical analysis.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">04</div>
+            <h3 class="process-title">Validate</h3>
+            <p class="process-desc">Execute manufacturing process qualification, root cause analysis (RCA), and cost reduction initiatives.</p>
+          </div>
+          <div class="process-step">
+            <div class="process-number">05</div>
+            <h3 class="process-title">Deliver</h3>
+            <p class="process-desc">NPI handoff, author SOPs and Work Instructions, and provide launch support to production.</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#projects" class="arrow" aria-label="Go to Projects section">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Design</p>
+      <h1 class="title">Projects</h1>
+
+      <div class="projects-tab-container reveal" role="tablist" aria-label="Project list">
+        <button
+          class="project-tab active"
+          id="project-tab-1"
+          role="tab"
+          aria-selected="true"
+          aria-controls="project-panel-1"
+          onclick="openProject(event, 'project-panel-1')"
+        >
+          Door System
+        </button>
+        <button
+          class="project-tab"
+          id="project-tab-3"
+          role="tab"
+          aria-selected="false"
+          aria-controls="project-panel-3"
+          onclick="openProject(event, 'project-panel-3')"
+        >
+          Sheet-Metal Project
+        </button>
+      </div>
+
+      <div class="project-panels">
+
+        <!-- PROJECT ONE -->
+        <div
+          class="project-panel active"
+          id="project-panel-1"
+          role="tabpanel"
+          aria-labelledby="project-tab-1"
+        >
+          <div class="project-container">
+            <div class="products-grid">
+              <div
+                class="product-item"
+                data-images="./assets/Bifold Door.mp4| ./assets/2-Panel Bifold Door - Front.png| ./assets/2-Panel Bifold Door - isometric.png"
+                data-github="https://github.com/Jjanan-UI/2-Panel-Bifold-Door"
+                data-specs="Material: | Track material (Aluminum)| Pivot system | Spring feature"
+                data-details="A complete mechanical design and documentation package for a space-saving bifold door system. Engineered for scalability, the hardware kit supports both 2-panel and 4-panel configurations. The project includes a full 3D CAD assembly, kinematic motion studies verifying the fold path, a detailed Bill of Materials (BOM), and comprehensive end-user installation instructions with specific hardware callouts."
+              >
+                <div class="product-img-container">
+                  <video
+                    class="product-img product-video"
+                    src="./assets/Bifold Door.mp4"
+                    poster="./assets/2-Panel Bifold Door - Front.png"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    disablepictureinpicture
+                    disableremoteplayback
+                    tabindex="-1"
+                    aria-label="Aluminum Door Frame animation"
+                  ></video>
+                </div>
+                <h3 class="product-title">Modular Bifold Door System</h3>
+                <p class="product-desc">
+                   Designed the hardware kit as a modular system, allowing users to scale from a standard 2-panel door to a wider 4-panel configuration by simply scaling the BOM.
+                </p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                  <button class="btn btn-color-2 project-btn preview-btn" onclick="openPreview(this)">Preview</button>
+                </div>
+              </div>
+              <div
+                class="product-item"
+                data-images="./assets/Kit_Photo.png| ./assets/Kit_Photo_Parts.png| ./assets/Kit_Photo_Hardware.png"
+                data-github="https://github.com/Jjanan-UI/Bifold-Door-Kit"
+                data-specs="Component Cataloging - Created a comprehensive visual breakdown of all custom-manufactured parts (PRT-002 through PRT-011)."
+                data-details="A complete physical product breakdown and visual catalog for a custom bifold door system. This project documents the transition from 3D CAD to a shippable hardware kit, featuring high-fidelity renders of all mechanical components (pivots, hinges, brackets) alongside the specific fasteners required for installation. The clear, part-numbered layout demonstrates strong attention to detail, inventory management, and technical documentation."
+              >
+                <div class="product-img-container">
+                  <img src="./assets/Kit_Photo.png" alt="Bifold Door Kit" class="product-img" loading="lazy" />
+                </div>
+                <h3 class="product-title">Bifold Door Kit</h3>
+                <p class="product-desc">
+                  This project showcases the product realization phase of a modular bifold door system.
+                </p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                  <button class="btn btn-color-2 project-btn preview-btn" onclick="openPreview(this)">Preview</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT THREE -->
+        <div
+          class="project-panel"
+          id="project-panel-3"
+          role="tabpanel"
+          aria-labelledby="project-tab-3"
+        >
+          <div class="project-container">
+            <div class="products-grid">
+              <div
+                class="product-item"
+                data-images="./assets/3d_render.JPG| ./assets/Flat.png"
+                data-github="https://github.com/Jjanan-UI/Custom-Electronics-Enclosure"
+                data-specs="Material: 2.0mm Aluminum 5052|Process: Laser cut"
+                data-details="A 3D CAD model of a functional enclosure base designed for electronic components. Features include integrated corner mounting tabs with counterbores, side-wall cutouts for cable/connector routing, and internal mounting points for a PCB. Designed with uniform wall thickness for sheet metal fabrication."
+              >
+                <div class="product-img-container">
+                  <img src="./assets/3d_render.JPG" alt="Custom Electronics Enclosure" class="product-img" loading="lazy" />
+                </div>
+                <h3 class="product-title">Custom Electronics Enclosure</h3>
+                <p class="product-desc">
+                  3D CAD model of a functional enclosure base for electronic
+                  components, designed for sheet metal fabrication.
+                </p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                  <button class="btn btn-color-2 project-btn preview-btn" onclick="openPreview(this)">Preview</button>
+                </div>
+              </div>
+              <div
+                class="product-item"
+                data-images="./assets/Electrical fold.JPG| ./assets/electrical flat.JPG"
+                data-github="https://github.com/Jjanan-UI/Custom-Electrical-Enclosure"
+                data-specs="Material: 1.5mm Steel CRS|Process: Laser cut"
+                data-details="A custom enclosure designed for electronic components. This project showcases both the folded 3D model and the 2D flat pattern, demonstrating proficiency in sheet metal design, bend allowances, and manufacturing constraints. Features include integrated fan grills, louvered ventilation, and custom I/O port cutouts."
+              >
+                <div class="product-img-container">
+                  <img src="./assets/Electrical fold.JPG" alt="Custom Electrical Enclosure" class="product-img" loading="lazy" />
+                </div>
+                <h3 class="product-title">Custom Electrical Enclosure</h3>
+                <p class="product-desc">
+                  3D CAD model that includes a specific cutout for a rear connector port, embossed fan grills, and a grid of internal holes for mounting PCBs or standoffs.
+                </p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                  <button class="btn btn-color-2 project-btn preview-btn" onclick="openPreview(this)">Preview</button>
+                </div>
+              </div>
+              <div
+                class="product-item"
+                data-images="./assets/cellphone holder 3D.png| ./assets/cellphone holder flat.png"
+                data-github="https://github.com/Jjanan-UI/Cellphone-Holder"
+                data-specs="Material: 3.0 mm CRS|Process: Laser cut"
+                data-details="A minimalist, single-piece desktop phone stand designed for flat-pattern manufacturing. This project demonstrates core Design for Manufacturing (DFM) principles, transforming a 2D laser-cut profile into a 3D functional object using a tool-less interlocking tab design. Features a 60° ergonomic viewing angle and a custom retention lip to secure the device."
+              >
+                <div class="product-img-container">
+                  <img src="./assets/cellphone holder 3D.PNG" alt="Cellphone Holder" class="product-img" loading="lazy" />
+                </div>
+                <h3 class="product-title">Cellphone Holder</h3>
+                <p class="product-desc">
+                  This project explores the limits of minimalist product design through sheet metal fabrication. The challenge was to create a stable, ergonomic phone stand using only a single piece of Cold Rolled Steel.
+                </p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2 project-btn">Github</button>
+                  <button class="btn btn-color-2 project-btn preview-btn" onclick="openPreview(this)">Preview</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="#contact" class="arrow" aria-label="Go to Contact section">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Information</h1>
+
+      <div class="contact-info-upper-container reveal">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" loading="lazy" />
+          <p><a href="mailto:paditjhon@gmail.com">paditjhon@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <svg class="icon contact-icon phone-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          <p><a href="tel:+639050731321">+63 905 073 1321</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" loading="lazy" />
+          <p><a href="https://www.linkedin.com/in/jhon-lito-padit-86b42826a">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2026 Jhon Lito Padit. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ================= BACK TO TOP ================= -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <!-- ================= PROJECT PREVIEW MODAL ================= -->
+    <div
+      class="preview-modal"
+      id="preview-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="preview-title"
+      aria-hidden="true"
+    >
+      <div class="preview-dialog" role="document">
+        <button
+          type="button"
+          class="preview-close"
+          aria-label="Close preview"
+          onclick="closePreview()"
+        >
+          &times;
+        </button>
+
+        <div class="preview-content">
+          <div class="preview-image-wrapper">
+            <div class="preview-gallery">
+              <div class="preview-main-image">
+                <button
+                  type="button"
+                  class="preview-nav preview-nav-prev"
+                  id="preview-prev"
+                  aria-label="Previous photo"
+                  onclick="showPrevImage()"
+                  hidden
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
+                </button>
+
+                <img id="preview-image" class="preview-image" src="" alt="" />
+
+                <video
+                  id="preview-video"
+                  class="preview-image preview-video"
+                  muted
+                  loop
+                  playsinline
+                  autoplay
+                  preload="metadata"
+                  disablepictureinpicture
+                  disableremoteplayback
+                  tabindex="-1"
+                  hidden
+                ></video>
+
+                <button
+                  type="button"
+                  class="preview-nav preview-nav-next"
+                  id="preview-next"
+                  aria-label="Next photo"
+                  onclick="showNextImage()"
+                  hidden
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+              </div>
+
+              <span class="preview-counter" id="preview-counter" hidden>1 / 1</span>
+
+              <div
+                class="preview-thumbs"
+                id="preview-thumbs"
+                role="group"
+                aria-label="Product media"
+                hidden
+              ></div>
+            </div>
+          </div>
+
+          <div class="preview-details">
+            <p class="preview-eyebrow">Project Preview</p>
+            <h2 class="preview-title" id="preview-title"></h2>
+            <p class="preview-desc" id="preview-desc"></p>
+
+            <div class="preview-specs-wrapper" id="preview-specs-wrapper" hidden>
+              <h3 class="preview-specs-title">Details</h3>
+              <ul class="preview-specs" id="preview-specs"></ul>
+            </div>
+
+            <div class="preview-actions">
+              <button type="button" class="btn btn-color-1" id="preview-github">
+                View on GitHub
+              </button>
+              <button type="button" class="btn btn-color-2" onclick="closePreview()">
+                Close
+              </button>
+            </div>
+
+            <p class="preview-hint">
+              <kbd>←</kbd> <kbd>→</kbd> to navigate · <kbd>Esc</kbd> to close
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* ================= HAMBURGER ================= */
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        menu.classList.toggle("open");
+        icon.classList.toggle("open");
+      }
+
+      /* ================= PROJECT TABS ================= */
+      function openProject(event, panelId) {
+        document.querySelectorAll(".project-panel").forEach((panel) => {
+          panel.classList.remove("active");
+        });
+        document.querySelectorAll(".project-tab").forEach((tab) => {
+          tab.classList.remove("active");
+          tab.setAttribute("aria-selected", "false");
+        });
+
+        const targetPanel = document.getElementById(panelId);
+        if (targetPanel) targetPanel.classList.add("active");
+
+        if (event && event.currentTarget) {
+          event.currentTarget.classList.add("active");
+          event.currentTarget.setAttribute("aria-selected", "true");
+        }
+      }
+
+      /* ================= IMAGE FALLBACKS ================= */
+      document.querySelectorAll(".tool-logo").forEach((img) => {
+        if (img.tagName !== "IMG") return;
+        img.addEventListener("error", () => {
+          const ph = document.createElement("div");
+          ph.className = "tool-placeholder";
+          ph.textContent = "?";
+          img.replaceWith(ph);
+        });
+      });
+
+      /* Only IMG, not the video that lives in the same container */
+      document.querySelectorAll("img.product-img").forEach((img) => {
+        img.addEventListener("error", () => {
+          img.style.display = "none";
+          const parent = img.parentElement;
+          if (!parent.querySelector(".product-placeholder")) {
+            const ph = document.createElement("div");
+            ph.className = "product-placeholder";
+            ph.textContent = "No Image";
+            parent.appendChild(ph);
+          }
+        });
+      });
+
+      /* ================= PROJECT GITHUB BUTTONS ================= */
+      document.querySelectorAll(".product-item").forEach((item) => {
+        const btn = item.querySelector(".project-btn:not(.preview-btn)");
+        if (!btn) return;
+
+        const url = (item.dataset.github || "").trim();
+
+        if (!url) {
+          btn.hidden = true;
+          return;
+        }
+
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          window.open(url, "_blank", "noopener");
+        });
+      });
+
+      /* ================= VIDEO HELPERS ================= */
+      const VIDEO_SRC_RE = /\.(mp4|webm|ogg|ogv|mov|m4v)([?#].*)?$/i;
+
+      function isVideoSrc(src) {
+        return VIDEO_SRC_RE.test(String(src || "").trim());
+      }
+
+      /* Autoplay an MP4 inside a project card (muted, looped, no controls).
+         Any card whose data-images contains a video gets upgraded automatically. */
+      function upgradeCardVideo(item) {
+        const container = item.querySelector(".product-img-container");
+        if (!container || container.querySelector("video")) return;
+
+        const sources = (item.dataset.images || "")
+          .split("|")
+          .map((s) => s.trim())
+          .filter(Boolean);
+
+        const videoSrc = sources.find(isVideoSrc);
+        if (!videoSrc) return;
+
+        const poster = sources.find((s) => !isVideoSrc(s)) || "";
+        const titleEl = item.querySelector(".product-title");
+
+        const video = document.createElement("video");
+        video.className = "product-img product-video";
+        video.muted = true;
+        video.defaultMuted = true;
+        video.loop = true;
+        video.autoplay = true;
+        video.playsInline = true;
+        video.preload = "metadata";
+        video.setAttribute("muted", "");
+        video.setAttribute("playsinline", "");
+        video.setAttribute("disablepictureinpicture", "");
+        video.setAttribute("disableremoteplayback", "");
+        video.setAttribute("tabindex", "-1");
+        video.setAttribute(
+          "aria-label",
+          (titleEl ? titleEl.textContent.trim() : "Project") + " preview video"
+        );
+        if (poster) video.poster = poster;
+        video.src = videoSrc;
+
+        const img = container.querySelector("img.product-img");
+        if (img) img.replaceWith(video);
+        else container.appendChild(video);
+
+        const p = video.play();
+        if (p && typeof p.catch === "function") p.catch(() => {});
+      }
+
+      document.querySelectorAll(".product-item").forEach(upgradeCardVideo);
+
+      /* ================= PREVIEW MODAL ================= */
+      const previewModal = document.getElementById("preview-modal");
+      const previewImg = document.getElementById("preview-image");
+      const previewVideo = document.getElementById("preview-video");
+      const previewTitle = document.getElementById("preview-title");
+      const previewDesc = document.getElementById("preview-desc");
+      const previewSpecsWrapper = document.getElementById("preview-specs-wrapper");
+      const previewSpecs = document.getElementById("preview-specs");
+      const previewGithub = document.getElementById("preview-github");
+      const previewThumbs = document.getElementById("preview-thumbs");
+      const previewPrev = document.getElementById("preview-prev");
+      const previewNext = document.getElementById("preview-next");
+      const previewCounter = document.getElementById("preview-counter");
+
+      let previewTrigger = null;
+      let previewImages = [];
+      let previewIndex = 0;
+
+      function stopPreviewVideo() {
+        if (!previewVideo) return;
+        previewVideo.pause();
+        previewVideo.hidden = true;
+        previewVideo.removeAttribute("src");
+        try { previewVideo.load(); } catch (e) {}
+      }
+
+      function showImageAt(idx) {
+        if (!previewImages.length) return;
+        const total = previewImages.length;
+        previewIndex = ((idx % total) + total) % total;
+
+        const src = previewImages[previewIndex];
+
+        if (isVideoSrc(src)) {
+          /* ---- show video, no controls, autoplay ---- */
+          previewImg.hidden = true;
+          previewImg.removeAttribute("src");
+
+          if (previewVideo) {
+            previewVideo.hidden = false;
+            if (previewVideo.getAttribute("src") !== src) {
+              previewVideo.src = src;
+            }
+            try { previewVideo.currentTime = 0; } catch (e) {}
+            const p = previewVideo.play();
+            if (p && typeof p.catch === "function") p.catch(() => {});
+          }
+        } else {
+          /* ---- show still image ---- */
+          stopPreviewVideo();
+
+          previewImg.hidden = false;
+          previewImg.src = src;
+          previewImg.alt = "Product photo " + (previewIndex + 1);
+        }
+
+        previewCounter.textContent = previewIndex + 1 + " / " + total;
+
+        previewThumbs.querySelectorAll(".preview-thumb").forEach((t, i) => {
+          t.classList.toggle("active", i === previewIndex);
+        });
+      }
+
+      function showPrevImage() {
+        if (previewImages.length < 2) return;
+        showImageAt(previewIndex - 1);
+      }
+
+      function showNextImage() {
+        if (previewImages.length < 2) return;
+        showImageAt(previewIndex + 1);
+      }
+
+      function openPreview(trigger) {
+        if (!previewModal) return;
+        const item = trigger.closest(".product-item");
+        if (!item) return;
+
+        previewTrigger = trigger;
+
+        const media = item.querySelector(".product-img");
+        const title = item.querySelector(".product-title");
+        const desc = item.querySelector(".product-desc");
+
+        const imagesAttr = (item.dataset.images || "").trim();
+        let images = imagesAttr
+          ? imagesAttr.split("|").map((s) => s.trim()).filter(Boolean)
+          : [];
+
+        if (!images.length && media) {
+          const isVid = media.tagName === "VIDEO";
+          const ok = isVid
+            ? !!media.currentSrc || !!media.src
+            : media.complete && media.naturalWidth > 0;
+          if (ok) images = [media.currentSrc || media.src];
+        }
+
+        previewImages = images;
+        previewIndex = 0;
+
+        const wrapper = previewImg.parentElement;
+        const oldPh = wrapper.querySelector(".product-placeholder");
+        if (oldPh) oldPh.remove();
+        previewThumbs.innerHTML = "";
+
+        previewImg.hidden = true;
+        previewImg.removeAttribute("src");
+        previewImg.style.display = "";
+        stopPreviewVideo();
+
+        if (previewImages.length) {
+          showImageAt(0);
+
+          if (previewImages.length > 1) {
+            previewImages.forEach((src, idx) => {
+              const isVid = isVideoSrc(src);
+
+              const thumb = document.createElement("button");
+              thumb.type = "button";
+              thumb.className = "preview-thumb" + (idx === 0 ? " active" : "");
+              thumb.setAttribute(
+                "aria-label",
+                (isVid ? "Play video " : "View image ") + (idx + 1)
+              );
+
+              if (isVid) {
+                const tv = document.createElement("video");
+                tv.src = src + "#t=0.1";
+                tv.muted = true;
+                tv.playsInline = true;
+                tv.preload = "metadata";
+                tv.setAttribute("muted", "");
+                tv.setAttribute("playsinline", "");
+                thumb.appendChild(tv);
+              } else {
+                const timg = document.createElement("img");
+                timg.src = src;
+                timg.alt = "";
+                thumb.appendChild(timg);
+              }
+
+              thumb.addEventListener("click", () => showImageAt(idx));
+              previewThumbs.appendChild(thumb);
+            });
+
+            previewThumbs.hidden = false;
+            previewPrev.hidden = false;
+            previewNext.hidden = false;
+            previewCounter.hidden = false;
+            previewCounter.textContent = "1 / " + previewImages.length;
+          } else {
+            previewThumbs.hidden = true;
+            previewPrev.hidden = true;
+            previewNext.hidden = true;
+            previewCounter.hidden = true;
+          }
+        } else {
+          previewImg.hidden = true;
+          const ph = document.createElement("div");
+          ph.className = "product-placeholder";
+          ph.textContent = "No Image";
+          wrapper.appendChild(ph);
+          previewThumbs.hidden = true;
+          previewPrev.hidden = true;
+          previewNext.hidden = true;
+          previewCounter.hidden = true;
+        }
+
+        previewTitle.textContent = title ? title.textContent.trim() : "";
+
+        const longDesc = (item.dataset.details || "").trim();
+        previewDesc.textContent = longDesc
+          ? longDesc
+          : desc
+          ? desc.textContent.trim()
+          : "";
+
+        const specs = (item.dataset.specs || "")
+          .split("|")
+          .map((s) => s.trim())
+          .filter(Boolean);
+
+        previewSpecs.innerHTML = "";
+        if (specs.length) {
+          specs.forEach((spec) => {
+            const li = document.createElement("li");
+            const splitAt = spec.indexOf(":");
+            if (splitAt > -1) {
+              const label = document.createElement("strong");
+              label.textContent = spec.slice(0, splitAt + 1) + " ";
+              li.appendChild(label);
+              li.appendChild(
+                document.createTextNode(spec.slice(splitAt + 1).trim())
+              );
+            } else {
+              li.textContent = spec;
+            }
+            previewSpecs.appendChild(li);
+          });
+          previewSpecsWrapper.hidden = false;
+        } else {
+          previewSpecsWrapper.hidden = true;
+        }
+
+        const githubUrl = getGithubUrl(item);
+        if (githubUrl) {
+          previewGithub.hidden = false;
+          previewGithub.onclick = () =>
+            window.open(githubUrl, "_blank", "noopener");
+        } else {
+          previewGithub.hidden = true;
+          previewGithub.onclick = null;
+        }
+
+        previewModal.classList.add("open");
+        previewModal.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+
+        const closeBtn = previewModal.querySelector(".preview-close");
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function getGithubUrl(item) {
+        return (item.dataset.github || "").trim();
+      }
+
+      function closePreview() {
+        if (!previewModal) return;
+        previewModal.classList.remove("open");
+        previewModal.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+        if (previewVideo) previewVideo.pause();
+        if (previewTrigger && typeof previewTrigger.focus === "function") {
+          previewTrigger.focus();
+        }
+        previewTrigger = null;
+      }
+
+      if (previewModal) {
+        previewModal.addEventListener("click", (e) => {
+          if (e.target === previewModal) closePreview();
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (!previewModal.classList.contains("open")) return;
+
+          if (e.key === "Escape") {
+            closePreview();
+            return;
+          }
+          if (e.key === "ArrowLeft") {
+            showPrevImage();
+            return;
+          }
+          if (e.key === "ArrowRight") {
+            showNextImage();
+            return;
+          }
+          if (e.key === "Tab") {
+            const focusable = previewModal.querySelectorAll(
+              'button:not([hidden]), a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+            );
+            if (!focusable.length) return;
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+              e.preventDefault();
+              last.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+              e.preventDefault();
+              first.focus();
+            }
+          }
+        });
+      }
+
+      document.querySelectorAll(".product-img-container").forEach((container) => {
+        container.classList.add("clickable");
+        container.addEventListener("click", () => openPreview(container));
+      });
+
+      /* ================= SCROLL-SPY NAV ================= */
+      (function () {
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll(
+          "#desktop-nav .nav-links a[data-spy]"
+        );
+        if (!sections.length || !navLinks.length) return;
+
+        const spy = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              const id = entry.target.id;
+              navLinks.forEach((a) => {
+                a.classList.toggle("nav-active", a.dataset.spy === id);
+              });
+            });
+          },
+          { rootMargin: "-45% 0px -45% 0px" }
+        );
+        sections.forEach((s) => spy.observe(s));
+      })();
+
+      /* ================= SCROLL REVEAL ================= */
+      (function () {
+        if (
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+          !("IntersectionObserver" in window)
+        ) {
+          document.querySelectorAll(".reveal").forEach((el) => {
+            el.classList.add("revealed");
+          });
+          return;
+        }
+
+        const revealObs = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("revealed");
+                revealObs.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12 }
+        );
+        document.querySelectorAll(".reveal").forEach((el) => revealObs.observe(el));
+      })();
+
+      /* ================= BACK TO TOP ================= */
+      (function () {
+        const btn = document.getElementById("back-to-top");
+        if (!btn) return;
+        const toggle = () => {
+          btn.classList.toggle("visible", window.scrollY > 600);
+        };
+        window.addEventListener("scroll", toggle, { passive: true });
+        toggle();
+        btn.addEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      })();
+    </script>
+  </body>
+</html>
